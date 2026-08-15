@@ -2,7 +2,7 @@ import React from 'react'
 
 function Desboard() {
   return (
-    <div>Desboard</div>
+    <div>Desboard </div>
   )
 }
 

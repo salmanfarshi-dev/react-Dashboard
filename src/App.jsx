@@ -19,7 +19,7 @@ function App() {
       </div>
 
       <Routes>
-        <Route path='/' element={ <RootLayout/> } >
+        <Route path='/' element={ <RootLayout toggleSidebar={toggleSidebar} /> } >
         <Route path='/' index element= { <Desboard/> }/>
         <Route path='order' element={ <Order/> }/>
         <Route path='products' element={ <Products/> }/>
