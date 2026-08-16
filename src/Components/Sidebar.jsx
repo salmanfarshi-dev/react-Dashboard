@@ -55,9 +55,12 @@ function Sidebar({ toggleSidebar }) {
           ))
         }
       </ul>
-      <button onClick={toggleSidebar} className='md:hidden absolute top-0 right-0 px-2 py-3 text-2xl cursor-pointer'>
-        <IoMdClose />
-      </button>
+     <button
+  onClick={toggleSidebar}
+  className="md:hidden absolute top-0 right-0 px-2 py-3 text-2xl cursor-pointer"
+>
+  <IoMdClose />
+</button>
     </div>
   )
 }
