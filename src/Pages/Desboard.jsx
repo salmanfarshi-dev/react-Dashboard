@@ -1,8 +1,11 @@
 import React from 'react'
+import TodaySales from '../Layout/TodaySales'
 
 function Desboard() {
   return (
-    <div>Desboard </div>
+   <>
+   <TodaySales/>
+   </>
   )
 }
 
