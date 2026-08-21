@@ -25,15 +25,15 @@ const salesData = [
   },
   {
     id: 3,
-    icon: MdPersonalInjury ,
+    icon: TbShoppingBagEdit ,
     sale: '$4,780',
     title: 'Revenue',
     des: 'Growth in online sales',
     color: '#F2C8ED'
   },
   {
+    icon: MdPersonalInjury ,
     id: 4,
-    icon: TbShoppingBagEdit ,
     sale: '$3,600',
     title: 'Customers',
     des: 'Returning shoppers this month',

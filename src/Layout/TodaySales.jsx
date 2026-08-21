@@ -1,6 +1,7 @@
 import React from "react";
 import ContentHeading from "../Components/ContentHeading";
 import salesData from "../SalesData";
+import SalesChart from "../Components/SalesChart";
 
 function TodaySales() {
   return (
@@ -47,6 +48,20 @@ function TodaySales() {
 
         <div className="col-span-4 bg-primary2 rounded-[10px] px-4 py-5">
           <ContentHeading tittle="Level" />
+          <div className="">
+            <SalesChart/>
+          </div>
+          <div className="flex justify-center w-full gap-20 lg:gap-10 items-center pt-1 mt-2">
+  <button className="flex items-center lg:justify-center gap-2 text-gray-500 text-[10px] font-medium lg:border-r lg:border-gray-700 lg:w-full">
+    <span className="h-2 w-2 rounded-full bg-secondary"></span>
+    Volume
+  </button>
+
+  <button className="flex items-center gap-2 text-gray-500 text-[10px] font-medium lg:w-full">
+    <span className="h-2 w-2 rounded-full bg-gray-700"></span>
+    Service
+  </button>
+</div>
         </div>
       </div>
     </section>
